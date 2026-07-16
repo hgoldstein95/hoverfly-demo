@@ -5,7 +5,7 @@
    "type": "git",
    "subDir": null,
    "scope": "",
-   "rev": "707ff99594d72eabbe6d3d2b88aa8576fb1f2578",
+   "rev": "5810cd27905b45bc4f3f52b472c7885ea8c4c366",
    "name": "Hoverfly",
    "manifestFile": "lake-manifest.json",
    "inputRev": "main",
@@ -111,6 +111,6 @@
    "inputRev": "v4.31.0",
    "inherited": true,
    "configFile": "lakefile.toml"}],
- "name": "foo",
+ "name": "«hoverfly-demo»",
  "lakeDir": ".lake",
  "fixedToolchain": false}
