@@ -1,3 +1,3 @@
--- This module serves as the root of the `Foo` library.
+-- This module serves as the root of the `HoverflyDemo` library.
 -- Import modules here that should be built as part of the library.
 import HoverflyDemo.Basic
