@@ -11,38 +11,31 @@ add_hoverfly_tactics [assumption, contradiction, intro, rfl, subst_eqs,
 
 theorem demo_le_trans (a b c : Nat) (hab : a ≤ b) (hbc : b ≤ c) : a ≤ c := by
   hoverfly
-  sorry
 
 theorem demo_exists_imp (x y : Nat) : x + x = y → ∃ z, y = 2 * z := by
-  sorry
+  hoverfly
 
 theorem demo_binding (n m x : Nat) : n + x = m → n <= m := by
   intro h
   hoverfly
-  sorry
 
 theorem demo_exists : ∃ b, b = b ∧ b ≤ 10 := by
   hoverfly
-  sorry
 
 theorem demo_mini : 1 = 1 /\ 2 = 2 := by
   hoverfly
-  sorry
 
 theorem demo_binding_nonhyp (n m : Nat) : n <= m → ∃ x, m = x + n:= by
   hoverfly
-  sorry
 
 theorem demo_add_assoc (n m p : Nat) :
     n + (m + p) = (n + m) + p := by
   hoverfly
-  sorry
 
 theorem demo_long_names (very_very_long_variable_name : Nat) :
   very_very_long_variable_name = 1 ->
   ¬(very_very_long_variable_name = 2) /\ 1 = very_very_long_variable_name := by
   hoverfly
-  sorry
 
 /- Palamedes Demos -/
 
