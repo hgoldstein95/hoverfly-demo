@@ -5,7 +5,7 @@
    "type": "git",
    "subDir": null,
    "scope": "",
-   "rev": "3980fe171f0bf63537e932179ea77f1a6348fd8b",
+   "rev": "a440ffcf583e648de0d109b2bdee2ee1de80867d",
    "name": "Hoverfly",
    "manifestFile": "lake-manifest.json",
    "inputRev": "main",
